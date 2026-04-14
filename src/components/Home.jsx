@@ -29,7 +29,7 @@ function Home() {
             <div className="card" key={item.id}>
               <img src={item.image} alt={item.name} />
               <h3>{item.name}</h3>
-              <p>₹ {item.new_price}</p>
+              <p>New Price ₹{item.new_price}</p>
               <p className="old">₹ {item.old_price}</p>
             </div>
           ))}
